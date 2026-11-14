@@ -1,0 +1,19 @@
+{
+  "name": "Penny — Every peso has a purpose",
+  "short_name": "Penny",
+  "description": "Personal finance, savings & habit tracker.",
+  "start_url": "./#/dashboard",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F8F7F3",
+  "theme_color": "#244B3C",
+  "icons": [
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "Add expense", "url": "./?add=1#/dashboard" },
+    { "name": "Payday checklist", "url": "./#/payday" }
+  ]
+}
